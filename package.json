@@ -1,0 +1,10 @@
+{
+  "name": "dummyjson-api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "newman run \"collections/DummyJSON API Tests.postman_collection.json\" -e environments/DummyJSON.postman_environment.json"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
